@@ -1,0 +1,20 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title %}Home Page{% endblock title %}
+{% block body %}
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Home</h1>
+                <img src="{{ url_for('static', filename='img/chinook.jpg') }}" alt="chinook">
+            </div>
+        </div>
+    </div>
+</main>
+
+
+{% endblock body %}
+
+
+
